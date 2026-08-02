@@ -6,7 +6,7 @@
 %global optflags %{optflags} -g1
 
 Name:           mame
-Version:        0.274
+Version:        0.289
 Release:        1
 Source0:        https://github.com/mamedev/mame/archive/refs/tags/mame%(echo %{version}|sed -e 's,\.,,g').tar.gz
 Summary:        Emulator for a wide range of Arcade machines
